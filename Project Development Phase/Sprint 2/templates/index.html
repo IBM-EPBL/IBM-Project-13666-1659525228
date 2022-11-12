@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRIS Prediction</title>
+</head>
+<body>
+    <h1>Car Value</h1>
+    <h2>Using Random Forest</h2>
+    
+    
+    <form method="POST" action="/predict">
+        <p>Seller</p>
+        <input name="sell" required>
+        <p>OfferType</p>
+        <input name="ot" required>
+        <p>VehicleType</p>
+        <input name="vt" required>
+        <p>GearBox</p>
+        <input name="gb" required>
+        <p>PowerPs</p>
+        <input name="pps" required>
+        <p>kilometers</p>
+        <input name="km" required>
+        <p>fueltype</p>
+        <input name="ft" required>
+        <p>brand</p>
+        <input name="brand" required>
+        <p>notRepaired</p>
+        <input name="nr" required>
+        <p>Age</p>
+        <input name="age" required>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
